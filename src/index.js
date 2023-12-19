@@ -5,7 +5,7 @@ import mutateNewVariantBeforeCreate from "./mutateNewVariantBeforeCreate.js";
 import publishProductToCatalog from "./publishProductToCatalog.js";
 import { registerPluginHandlerForTaxes } from "./registration.js";
 import mutations from "./mutations/index.js";
-import policies from "./policies.json";
+import policies from "./policies.json" assert { type: "json" };
 import preStartup from "./preStartup.js";
 import queries from "./queries/index.js";
 import resolvers from "./resolvers/index.js";
